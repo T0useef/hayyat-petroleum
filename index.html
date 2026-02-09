@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hayyat Petroleum Trading LLC</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav id="navbar" class="navbar">
+    <div class="container nav-container">
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo">
+        <img src="assets/logo.png" alt="Hayat Petroleum Trading L.L.C" class="nav-logo-img" />
+      </a>
+
+      <!-- Hamburger toggle (mobile) -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- Nav links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#vision" class="nav-link">Vision</a></li>
+        <li><a href="#mission" class="nav-link">Mission</a></li>
+        <li><a href="#ports" class="nav-link">Ports</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#directors" class="nav-link">Leadership</a></li>
+        <li><a href="#contact" class="nav-link btn-nav">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO / IMAGE SLIDER
+       ============================================================ -->
+  <section id="hero" class="hero-section">
+    <div class="slider" id="heroSlider">
+      <!-- Slides -->
+      <div class="slide active" style="background-image: url('assets/slider1.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content container">
+          <span class="slide-subtitle">Hayat Petroleum Trading L.L.C</span>
+          <h1 class="slide-title">Supplying Petroleum Products</h1>
+          <p class="slide-text">Established in 2023 in the United Arab Emirates, with our office located in Dubai. The core of our business is supplying petroleum products to the marine industry and commercial outlets.</p>
+          <a href="#about" class="btn btn-primary">Discover More</a>
+        </div>
+      </div>
+
+      <div class="slide" style="background-image: url('assets/slider2.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content container">
+          <span class="slide-subtitle">Hayat Petroleum Trading L.L.C</span>
+          <h1 class="slide-title">Supplying Petroleum Products</h1>
+          <p class="slide-text">Established in 2023 in the United Arab Emirates, with our office located in Dubai. The core of our business is supplying petroleum products to the marine industry and commercial outlets.</p>
+          <a href="#about" class="btn btn-primary">Discover More</a>
+        </div>
+      </div>
+
+      <div class="slide" style="background-image: url('assets/slider3.png');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content container">
+          <span class="slide-subtitle">Hayat Petroleum Trading L.L.C</span>
+          <h1 class="slide-title">Supplying Petroleum Products</h1>
+          <p class="slide-text">Established in 2023 in the United Arab Emirates, with our office located in Dubai. The core of our business is supplying petroleum products to the marine industry and commercial outlets.</p>
+          <a href="#about" class="btn btn-primary">Discover More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider navigation dots -->
+    <div class="slider-dots" id="sliderDots"></div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VISION
+       ============================================================ -->
+  <section id="vision" class="section section-white">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Our Vision</span>
+        <h2 class="section-title">Shaping the Future of Energy</h2>
+        <div class="title-bar"></div>
+      </div>
+
+      <div class="vision-grid">
+        <!-- Card 1 -->
+        <div class="vision-card animate-on-scroll" data-delay="0">
+          <div class="vision-icon-wrap">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <h3>Global Reach</h3>
+          <p>To be the most trusted international petroleum company, bridging energy needs across continents with excellence and reliability.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="vision-card animate-on-scroll" data-delay="150">
+          <div class="vision-icon-wrap">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <h3>Sustainability</h3>
+          <p>Committed to sustainable practices that protect our environment while meeting the world's growing energy demands responsibly.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="vision-card animate-on-scroll" data-delay="300">
+          <div class="vision-icon-wrap">
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+          <h3>Innovation</h3>
+          <p>Leading energy transformation through continuous innovation, advanced technology, and forward-thinking solutions for tomorrow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MISSION
+       ============================================================ -->
+  <section id="mission" class="section section-gray">
+    <div class="container">
+      <div class="mission-layout">
+        <!-- Left: decorative graphic -->
+        <div class="mission-visual animate-on-scroll">
+          <div class="mission-image-wrap">
+            <img
+              src="assets/mission.jpg"
+              alt="Oil refinery at sunset"
+              class="mission-img"
+            />
+            <div class="mission-badge">
+              <span class="badge-number">3+</span>
+              <span class="badge-label">Years of<br />Excellence</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: text content -->
+        <div class="mission-content animate-on-scroll" data-delay="200">
+          <span class="section-label">Our Mission</span>
+          <h2 class="section-title left-align">Delivering Energy<br />With Purpose</h2>
+          <div class="title-bar left-bar"></div>
+          <p class="mission-text">
+            Our mission is to provide reliable, high-quality petroleum products and energy solutions
+            to industries and communities worldwide. We are committed to operational excellence,
+            safety, environmental responsibility, and creating lasting value for our stakeholders.
+          </p>
+          <ul class="mission-list">
+            <li><i class="fa-solid fa-check-circle"></i> Operational excellence at every level</li>
+            <li><i class="fa-solid fa-check-circle"></i> Safety-first culture across all operations</li>
+            <li><i class="fa-solid fa-check-circle"></i> Environmental stewardship and compliance</li>
+            <li><i class="fa-solid fa-check-circle"></i> Sustainable value creation for stakeholders</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PORTS
+       ============================================================ -->
+  <section id="ports" class="section section-white">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Our Ports</span>
+        <h2 class="section-title">Strategic Locations Worldwide</h2>
+        <div class="title-bar"></div>
+        <p class="section-desc">Our strategically positioned ports ensure efficient logistics and seamless global energy distribution.</p>
+      </div>
+
+      <div class="ports-list-grid">
+
+        <!-- Abu Dhabi -->
+        <div class="port-region-card animate-on-scroll" data-delay="0">
+          <div class="port-region-header">
+            <i class="fa-solid fa-anchor"></i>
+            <h3>Abu Dhabi</h3>
+          </div>
+          <ul class="port-list">
+            <li><i class="fa-solid fa-location-dot"></i> Mina Zayed Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Free Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Khalifa Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Free Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Musaffah Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Private Jetties, Musaffah</li>
+          </ul>
+        </div>
+
+        <!-- Dubai -->
+        <div class="port-region-card animate-on-scroll" data-delay="100">
+          <div class="port-region-header">
+            <i class="fa-solid fa-anchor"></i>
+            <h3>Dubai</h3>
+          </div>
+          <ul class="port-list">
+            <li><i class="fa-solid fa-location-dot"></i> Dubai Maritime City (DMC)</li>
+            <li><i class="fa-solid fa-location-dot"></i> Dubai Dry Dock</li>
+            <li><i class="fa-solid fa-location-dot"></i> Port Rashid</li>
+            <li><i class="fa-solid fa-location-dot"></i> Jebel Ali Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Dubai Palm Deira</li>
+            <li><i class="fa-solid fa-location-dot"></i> Hamriyah Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Jebel Ali Water Front</li>
+          </ul>
+        </div>
+
+        <!-- Sharjah -->
+        <div class="port-region-card animate-on-scroll" data-delay="200">
+          <div class="port-region-header">
+            <i class="fa-solid fa-anchor"></i>
+            <h3>Sharjah</h3>
+          </div>
+          <ul class="port-list">
+            <li><i class="fa-solid fa-location-dot"></i> Port Khalid</li>
+            <li><i class="fa-solid fa-location-dot"></i> Sharjah Hamriyah Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Fujairah</li>
+            <li><i class="fa-solid fa-location-dot"></i> Khorfakkan Port</li>
+          </ul>
+        </div>
+
+        <!-- Ras Al Khaimah -->
+        <div class="port-region-card animate-on-scroll" data-delay="300">
+          <div class="port-region-header">
+            <i class="fa-solid fa-anchor"></i>
+            <h3>Ras Al Khaimah</h3>
+          </div>
+          <ul class="port-list">
+            <li><i class="fa-solid fa-location-dot"></i> Mina Saqr Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Al Jazeera Port</li>
+            <li><i class="fa-solid fa-location-dot"></i> Steven Rock Jetty</li>
+            <li><i class="fa-solid fa-location-dot"></i> RAK Maritime City</li>
+            <li><i class="fa-solid fa-location-dot"></i> Khor Port</li>
+          </ul>
+        </div>
+
+        <!-- Ajman -->
+        <div class="port-region-card animate-on-scroll" data-delay="400">
+          <div class="port-region-header">
+            <i class="fa-solid fa-anchor"></i>
+            <h3>Ajman</h3>
+          </div>
+          <ul class="port-list">
+            <li><i class="fa-solid fa-location-dot"></i> Ajman Port</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES
+       ============================================================ -->
+  <section id="services" class="section section-gray">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Our Services</span>
+        <h2 class="section-title">Comprehensive Energy Solutions</h2>
+        <div class="title-bar"></div>
+        <p class="section-desc">Hayat Petroleum Trading L.L.C is a reliable transportation company specializing in the oil field sector. We are committed to providing efficient and safe trucking services for a wide range of petroleum products.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card animate-on-scroll" data-delay="0">
+          <div class="service-icon"><i class="fa-solid fa-oil-well"></i></div>
+          <h3>Crude Oil Trading</h3>
+          <p>International crude oil procurement, trading, and distribution with transparent pricing and reliable supply chains.</p>
+          <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <!-- Service 2 -->
+        <div class="service-card animate-on-scroll" data-delay="100">
+          <div class="service-icon"><i class="fa-solid fa-gas-pump"></i></div>
+          <h3>Refined Products</h3>
+          <p>Supply of high-quality refined petroleum products including gasoline, diesel, jet fuel, and specialty lubricants.</p>
+          <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <!-- Service 3 -->
+        <div class="service-card animate-on-scroll" data-delay="200">
+          <div class="service-icon"><i class="fa-solid fa-ship"></i></div>
+          <h3>Marine Bunkering</h3>
+          <p>Efficient bunkering services at major ports worldwide, ensuring vessels stay fueled and schedules are met.</p>
+          <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <!-- Service 4 -->
+        <div class="service-card animate-on-scroll" data-delay="300">
+          <div class="service-icon"><i class="fa-solid fa-warehouse"></i></div>
+          <h3>Storage & Logistics</h3>
+          <p>State-of-the-art storage facilities and integrated logistics solutions for seamless supply chain management.</p>
+          <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <!-- Service 5 -->
+        <div class="service-card animate-on-scroll" data-delay="400">
+          <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Risk Management</h3>
+          <p>Comprehensive hedging strategies and risk management solutions to protect against market volatility.</p>
+          <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <!-- Service 6 -->
+        <div class="service-card animate-on-scroll" data-delay="500">
+          <div class="service-icon"><i class="fa-solid fa-handshake"></i></div>
+          <h3>Consulting & Advisory</h3>
+          <p>Expert energy consulting services helping businesses navigate complex petroleum markets and regulations.</p>
+          <a href="#" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT US
+       ============================================================ -->
+  <section id="about" class="section section-white">
+    <div class="container">
+      <div class="about-full animate-on-scroll">
+        <div class="section-header">
+          <span class="section-label">About Us</span>
+          <h2 class="section-title">Because We Care About<br />Your Petroleum Products</h2>
+          <div class="title-bar"></div>
+        </div>
+        <div class="about-text-content">
+          <p>
+            Hayat Petroleum Trading L.L.C was established in 2023 in United Arab Emirates where in office located in Dubai. The core of our business is supplying petroleum products to the marine industry and commercial outlets. MFT is rapidly increasing its clients due to efficient and friendly dealing as our motto — <strong>"Because We Care About Your Petroleum Products"</strong>.
+          </p>
+          <p>
+            Hayat Petroleum Trading L.L.C Dispatch Network has been strategically tailored to cover the UAE main cities. Inspired by the customer's needs, the division's on-time delivery success rate reached 90% — matched by none in the region. Competitive pricing, professionalism in transport handling, wide coverage in maintenance workshops and safety of transported petroleum products is another story of excellence told by Hayat Petroleum Trading L.L.C.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="90">0</span><span class="stat-suffix">%</span>
+            <span class="stat-label">On-Time Delivery</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="7">0</span><span class="stat-suffix"></span>
+            <span class="stat-label">UAE Cities Covered</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="2023">0</span><span class="stat-suffix"></span>
+            <span class="stat-label">Established</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BOARD OF DIRECTORS
+       ============================================================ -->
+  <section id="directors" class="section section-gray">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Leadership</span>
+        <h2 class="section-title">Board of Directors</h2>
+        <div class="title-bar"></div>
+        <p class="section-desc">Guided by seasoned industry leaders with decades of combined experience in UAE energy markets.</p>
+      </div>
+
+      <div class="directors-grid">
+        <!-- Director 1 -->
+        <div class="director-card animate-on-scroll" data-delay="0">
+          <div class="director-img-wrap">
+            <img
+              src="assets/sikandar.jpg"
+              alt="Sikandar"
+            />
+            <div class="director-socials">
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="director-info">
+            <h4>Sikandar</h4>
+            <span>CEO</span>
+          </div>
+        </div>
+
+        <!-- Director 2 -->
+        <div class="director-card animate-on-scroll" data-delay="100">
+          <div class="director-img-wrap">
+            <img
+              src="assets/fakhar.jpg"
+              alt="Fakhar"
+            />
+            <div class="director-socials">
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="director-info">
+            <h4>Fakhar</h4>
+            <span>Operations Manager</span>
+          </div>
+        </div>
+
+        <!-- Director 3 -->
+        <div class="director-card animate-on-scroll" data-delay="200">
+          <div class="director-img-wrap">
+            <img
+              src="assets/umer.jpg"
+              alt="Umer"
+            />
+            <div class="director-socials">
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="director-info">
+            <h4>Umer</h4>
+            <span>Operations Manager</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT / CTA
+       ============================================================ -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="cta-layout animate-on-scroll">
+        <div class="cta-content">
+          <span class="section-label light">Get In Touch</span>
+          <h2 class="section-title light left-align">Ready to Partner<br />With Us?</h2>
+          <p class="cta-text">
+            Whether you're looking for reliable petroleum supply, strategic partnerships, or expert
+            energy consulting — we're here to help. Reach out to our team today.
+          </p>
+          <div class="cta-info-grid">
+            <div class="cta-info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Head Office</strong>
+                <span>204, Ayesha building, Al jurf 2, Ajman, UAE</span>
+              </div>
+            </div>
+            <div class="cta-info-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <strong>Phone</strong>
+                <span>+971 52 410 5377 | +971 50 286 9520</span>
+              </div>
+            </div>
+            <div class="cta-info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <span>infohayatpetroleum@gmail.com | info@hayatpetroleumtrading.com</span>
+              </div>
+            </div>
+            <div class="cta-info-item">
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <strong>Working Hours</strong>
+                <span>Sun – Thu: 8 AM – 6 PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="cta-form-wrap">
+          <form id="contactForm" class="contact-form">
+            <h3>Send a Message</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="cfName" placeholder="Full Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" id="cfEmail" placeholder="Email Address" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="cfSubject" placeholder="Subject" />
+            </div>
+            <div class="form-group">
+              <textarea id="cfMessage" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1: brand -->
+        <div class="footer-col">
+          <a href="#hero" class="nav-logo footer-logo">
+            <img src="assets/logo.png" alt="Hayat Petroleum Trading L.L.C" class="footer-logo-img" />
+          </a>
+          <p class="footer-about">
+            A leading international petroleum trading and energy solutions company dedicated to
+            powering progress and fueling the future responsibly.
+          </p>
+          <div class="footer-socials">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Column 2: quick links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#vision">Our Vision</a></li>
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#ports">Ports</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Crude Oil Trading</a></li>
+            <li><a href="#services">Refined Products</a></li>
+            <li><a href="#services">Marine Bunkering</a></li>
+            <li><a href="#services">Storage & Logistics</a></li>
+            <li><a href="#services">Consulting</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: newsletter -->
+        <!-- <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Stay updated with the latest industry insights and company news.</p>
+          <form class="footer-newsletter">
+            <input type="email" placeholder="Your email" required />
+            <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div> -->
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Hayyat Petroleum. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
