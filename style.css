@@ -1031,11 +1031,38 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .footer-bottom-links a:hover { color: var(--gold); }
 
 /* =============================================================
+   WHATSAPP FLOATING BUTTON
+   ============================================================= */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 18px rgba(37, 211, 102, .45);
+  z-index: 1000;
+  transition: var(--transition);
+}
+.whatsapp-float:hover {
+  background: #1ebe5d;
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 28px rgba(37, 211, 102, .55);
+  color: #fff;
+}
+
+/* =============================================================
    BACK TO TOP
    ============================================================= */
 .back-to-top {
   position: fixed;
-  bottom: 30px;
+  bottom: 100px;
   right: 30px;
   width: 48px;
   height: 48px;
